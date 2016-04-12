@@ -1,0 +1,28 @@
+<?php
+
+class GraphColoringAlgo 
+{
+	$N; 		// no. of courses
+	$CM[i][j];	// conflict matrix where i = 1..N
+	$D; 		// no. of days
+	$d; 		// daycode from 1..D
+	$T; 		// avaiable timeslots per day;
+	$t; 		// a timeslot from 1..T
+	$R; 		// no. of rooms
+	$r; 		// timeslot from 1..R
+	$k; 		// no. of colors
+	$loc		// no. of subjects per group
+	$CG[][];	// colored graph matrix
+
+	public function algo()
+	{
+		foreach( $i in $CM ) {
+			foreach ( $j in $CM ) {
+				if ( G[i][j] = 0 ) { //where i!=j
+					if ()
+				}
+			}
+		}
+	}
+
+}

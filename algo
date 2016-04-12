@@ -1,0 +1,23 @@
+/*
+Let N = # of exams
+	CM[i][j] = exam conflict graph 
+	D = # of exam days
+	d_a = exam day
+	t_s = timeslot
+	R = # of rooms
+	r_f = timeslot where f (1...R)
+	k = # of colors and set to 0
+	loc = # of rooms per group set to 0
+	CG[][] = color matrix
+
+1	For each c_i in CM
+2		For each c_j in CM
+			IF G[c_i][c_j] = 0 where i!=j
+				if c_j is already colored
+					go to step 2
+			IF courses c_i not in conflict with courses in group CG[k]
+				Add c_j to CG[k][loc] //add the courses to group
+			
+
+
+*/
