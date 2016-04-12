@@ -2417,7 +2417,10 @@ input[type="month"].input-lg {
   line-height: 46px;
 }
 .form-group {
+  margin-top: 15px;
   margin-bottom: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 .radio,
 .checkbox {
@@ -2974,9 +2977,9 @@ fieldset[disabled] .btn-warning.active {
   background-color: #fff;
 }
 .btn-danger {
-  color: #fff;
-  background-color: #black;
-  border-color: #black;
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
 }
 .btn-danger:hover,
 .btn-danger:focus,

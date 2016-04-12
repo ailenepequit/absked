@@ -1,3 +1,3 @@
 <div class="wrapper">
-    	@include('includes.header')   
+    	@include('layouts.includes.header')   
 </div>

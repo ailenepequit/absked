@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Room;
 use App\Http\Requests;
-use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
@@ -24,6 +24,8 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('pages.home');
+        $rooms = Room::paginate(10);
+
+        return view('home', compact('rooms'));
     }
 }
